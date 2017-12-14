@@ -1,0 +1,817 @@
+/*
+* @Author: 陇锦
+* @Date:   2017-12-11 11:03:55
+* @Last Modified by:   jinglong8866
+* @Last Modified time: 2017-12-14 17:23:15
+*/
+@import url(base.css);
+
+header{
+	width: 100%;
+    height: 40px;
+    background: #444444;
+}
+
+
+
+.guanggao{
+/* 	width: 976px; */
+	height: 100%;
+	margin: 0 auto;
+/* 	background: red; */
+	text-align: right;
+	
+}
+
+.gg45{
+/* 	margin: 0 auto; */
+	text-align: right;
+	line-height: 40px;
+	font-size: 12px;
+	color: #9F9FA1;
+
+}
+
+
+nav{
+	width: 100%;
+	height: 44px;
+	background: #323232;
+
+
+}
+
+
+
+.diyih ul li{
+	color: #fff;
+}
+
+nav ul{
+/* 	width: 976px; */
+	height: 100%;
+	background:#323232;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+nav ul li{
+	font-size: 20px;
+	line-height: 44px;
+	/* font-weight: bold; */
+	color: #fff;
+
+}
+/* 产品开始 */
+
+
+.main li{
+
+	width: 100%;
+	height: 580px;
+	background: #F9F0EB;
+    overflow: hidden;
+    position: relative;
+    border-bottom: 10px solid #fff;
+
+}
+
+
+.href h1{
+/* 	font-size: 56px; */
+	text-align: center;
+	color: #000;
+	margin-top: 47px;
+}
+
+
+.href h2{
+/* 	font-size: 24px; */
+	text-align: center;
+	color: #000;
+	margin-top: 10px;
+}
+
+.href div{
+/* 	width: 561px;
+	height: 395px; */
+	/* background: url('../img/zuida.jpg')no-repeat center; */
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 0;
+}
+
+.iphonex h1{
+	/* font-size: 56px; */
+	text-align: center;
+	color: #000;
+	margin-top: 47px;
+}
+
+.iphonex h2{
+	/* font-size: 24px; */
+	text-align: center;
+	color: #000;
+	margin-top: 10px;
+}
+
+.iphonex div{
+    /* width:909px;
+    height:194px;  
+    background: url('../img/iphonexbig.jpg') no-repeat center; */
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 100px;
+}
+
+
+.main li:last-child{
+	background: #FAFAFA;
+/* 	border-bottom: 0; */
+}
+
+/* 产品结束 */
+
+/* 六个产品开始 */
+
+.liugechanp{
+	display: flex;
+	flex-wrap: wrap;
+
+
+}
+
+.liugechanp li{
+
+	background: #FAFAFA;
+	box-sizing: border-box;
+	position: relative;
+
+}
+
+
+.liugechanp li h4{
+
+	text-align: center;
+	/* z-index: 100; */
+
+}
+
+.liugechanp li:nth-child(2) h4{
+	position: absolute;
+	z-index: 100;
+	width: 100%;
+
+}
+
+.liugechanp li:nth-child(2) span{
+	position: absolute;
+	z-index: 100;
+	width: 100%;
+	top: 100px;
+
+
+}
+
+
+.liugechanp li span{
+	display: block;
+	text-align: center;
+}
+.liugechanp li div{
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.liugechanp li:nth-child(2) div{
+    	/* width: 1262px; */
+    	height: 580px;
+    	background: url('../img/diergebig.jpg') no-repeat center;
+    	position: absolute;
+    	top: calc(50% - 290px);
+    	left: calc(50%- 631px);
+    /* 	background-size: 1262px 580px; */
+
+
+    }
+
+
+
+
+/* 六个产品结束 */
+
+/* 背景开始 */
+
+/* 底部开始 */
+.dibu{
+	width: 100%;
+	background: #f2f2f2;
+	overflow: hidden;
+	padding-bottom: 50px;
+}
+.dibu-top{
+	margin-top: 50px;
+	display: flex;
+}
+.dibu-top li{
+	width: 20%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+.dibu-top li span{
+	font-size: 10px;
+	color: #555555;
+	margin-bottom: 6px;
+}
+.dibu-top li a{
+	font-size: 10px;
+	color: #555555;
+	margin-bottom: 6px;
+}
+
+.dibu-top li a:hover{
+	text-decoration: underline;
+
+}
+.dibu-top li span:first-child{
+	font-weight: bold;
+	font-size: 12px;
+	color: #333333;
+}
+.dibu-top li:nth-child(3) span:nth-child(4){
+	font-weight: bold;
+	font-size: 12px;
+	color: #333333;
+	margin-top: 20px;
+}
+.dibu-top li:nth-child(4) span:nth-child(5){
+	font-weight: bold;
+	font-size: 12px;
+	color: #333333;
+	margin-top: 20px;
+}
+.dibu-TOP{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.dibu-TOP li{
+	height: 49px;
+	overflow: hidden;
+	padding-right: 12px;
+	border-bottom: 1px solid #d6d6d6;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.dibu-TOP li span{
+	display: block;
+	font-size: 12px;
+	color: #333333;
+	font-weight: bold;
+}
+
+/* 底部下面开始 */
+.dibutop{
+	/* width: 980px;
+	height: 54px; */
+	margin: 0 auto;
+/* 	background: yellow; */
+	margin-top: 34px;
+	margin-bottom: 21px;
+}
+
+
+.dibushang{
+/* 	width: 980px;
+	height: 17px; */
+	margin-bottom: 7px;
+	padding-bottom: 6px;
+	border-bottom: 1px solid #d6d6d6;
+}
+
+/* .dibuxia123{
+	width: 980px;
+	height: 23px;
+} */
+
+.xuangoufs{
+	font-size: 10px;
+	color: #C9C9C9;
+}
+
+.xuangoufs23{
+	margin-top: 3px;
+	font-size: 10px;
+	color: #C9C9C9;
+	float: left;
+
+}
+.yysd{
+	font-size: 12px;
+	color: #0070C9;
+}
+
+.dibusige12{
+	float: left;
+/* 	background: yellow; */
+	width: 380px;
+	height: 20px;
+}
+
+.wugexiahuaxian{
+	border-right: 1px solid #d6d6d6;
+    margin-right: 10px;
+    padding-right: 12px;
+    display: inline-block;
+    margin-top: 3px;
+    white-space: nowrap;
+    font-size: 10px;
+    color: #C9C9C9;
+}
+
+.wugexiahuaxian:hover{
+	text-decoration: underline;
+}
+
+.zhuo{
+	display: block;
+	float: right;
+}
+
+.china{
+	display: block;
+	float: right;
+	font-size: 10px;
+	color: #C9C9C9;
+}
+
+.china:hover{
+	text-decoration: underline;
+}
+
+.zuihouyihang{
+
+/* 	width: 980px;
+	height: 54px; */
+	margin: 0 auto;
+}
+
+.beian456{
+	float: left;
+	font-size: 10px;
+	color: #C9C9C9;
+}
+
+.beiwang:hover{
+	text-decoration: underline;
+}
+
+.beiwang{
+	display: block;
+	float: left;
+	font-size: 10px;
+	color: #C9C9C9;
+}
+
+
+.xpsjduan{
+	padding:20px;
+}
+
+.qxxhx{
+	border-bottom: 0;
+}
+
+.zuofudong12{
+	float: left;
+	width: 
+}
+/* 底部下面结束 */
+
+
+/* 第一个 */
+@media screen and (min-width:1024px ) {
+
+	/* 今天晚上 */
+	.dibutop{
+		width: 980px;
+	    height: 54px;
+	}
+
+	.dibushang{
+	    width: 980px;
+	    height: 17px;
+    }
+
+    .zuihouyihang{
+
+	    width: 980px;
+	    height: 54px;
+    }
+
+    .xpsjduan{
+    	display: none;
+    }
+
+	/* 晚上结束 */
+	.guanggao{
+		width: 976px;
+	}
+    .dibu-top{
+    	width: 980px;
+    	margin: 0 auto;
+    	margin-top: 50px;
+    }
+    .dibu-TOP{
+    	display: none;
+    }
+	.diyih{
+		display: block;
+	}
+	.dierge{
+		display: none;
+	}
+
+	.diyih ul{
+		width: 976px;
+	}
+
+	.href h1{
+		font-size: 56px;
+	}
+	.href h2{
+		font-size: 27px;
+	}
+
+	.href div{
+		width: 561px;
+	    height: 395px;
+	    background: url('../img/zuida.jpg')no-repeat center;
+	}
+	.iphonex h1{
+		font-size: 56px;
+	}
+	.iphonex h2{
+		font-size: 24px;
+	}
+	.iphonex div{
+		width:909px;
+        height:194px;  
+        background: url('../img/zhongjianx.jpg') no-repeat center;
+	}
+	/* 六个产品 */
+	.liugechanp li{
+		width: 50%;
+	    height: 580px;
+	    border-left: 12px solid #fff;
+	    border-bottom: 12px solid #fff;
+
+	}
+	.liugechanp li:nth-child(2n){
+	border-right: 12px solid #fff;
+    }
+    .liugechanp li h4{
+
+    	font-size: 40px;
+    	margin-top: 52px;
+
+    }
+    .liugechanp li span{
+    	font-size: 21px;
+    	margin-top: 4px;
+
+    }
+    .liugechanp li:first-child div{
+	/* width: 491px; */
+	height: 344px;
+	background: url('../img/chanpin1big.png') no-repeat center;
+	bottom:23px;
+    }
+    .liugechanp li:nth-child(4) div{
+   /*  width: 510px; */
+    height: 146px;
+    background: url('../img/chanpin4big.jpg') no-repeat center;
+    bottom: 154px;
+    }
+    .liugechanp li:nth-child(5) div{
+    /* width: 251px; */
+    height: 420px;
+    background: url('../img/chanpin5big.jpg') no-repeat center;
+    bottom: 0px;
+    }
+    .liugechanp li:nth-child(6) div{
+    /* width: 385px; */
+    height: 306px;
+    background: url('../img/chanpin6big.jpg') no-repeat center;
+    bottom: 75px;
+    }
+    .liugechanp li:nth-child(3) div{
+    /* width: 586px; */
+    height: 274px;
+    background: url('../img/chanpin3big.jpg') no-repeat center;
+    bottom: 104px;
+    }
+    .liugechanp li:nth-child(3) img{
+    	display: block;
+    	/* width: 142px; */
+    	height: 54px;
+    	margin: 0 auto;
+    	margin-top: 56px;
+    	background: url('../img/disangetubiaobig.png') no-repeat center;
+    }
+
+    
+
+	/* 产品结束 */
+    .bigbox ul{
+	width: 980px;
+	margin: 0 auto;
+	
+    }
+	
+
+}
+/* 第二个 */
+@media screen and (max-width: 1024px) and (min-width:768px) {
+	/* 今天晚上 */
+	.dibutop{
+		margin-left: 20px;
+		margin-right: 20px;
+	    height: 54px;
+	}
+
+	.dibushang{
+		margin-left: 20px;
+		margin-right: 20px;
+	    
+	    height: 17px;
+    }
+
+    .dibuxia123{
+    	margin-left: 20px;
+		margin-right: 20px;
+	    
+	    height: 17px;
+
+    }
+
+    .zuihouyihang{
+    	margin-left: 40px;
+		margin-right: 40px;
+	    
+	    height: 17px;
+    }
+
+    
+    .xpsjduan{
+    	display: none;
+    }
+	/* 晚上结束 */
+	.diyih{
+		display: block;
+	}
+	.dierge{
+		display: none;
+	}
+	.dibu-top{
+		padding: 0 28px;
+	}
+	.dibu-TOP{
+		display: none;
+	}
+
+	.diyih ul{
+		padding:0  16px;
+	}
+
+	.guanggao{
+		padding: 0 16px;
+	}
+
+	.href h1{
+		font-size: 44px;
+	}
+	.href h2{
+		font-size: 24px;
+	}
+
+	.href div{
+		width: 549px;
+	    height: 388px;
+	    background: url('../img/zhongjian.jpg')no-repeat center;
+
+	}
+	.iphonex h1{
+		font-size: 44px;
+	}
+	.iphonex h2{
+		font-size: 24px;
+	}
+	.iphonex div{
+		width:704px;
+        height:148px;  
+        background: url('../img/iphonexbig.jpg') no-repeat center;
+	}
+	/* 六个产品 */
+	.liugechanp li{
+		width: 50%;
+	    height: 508px;
+	    border-left: 12px solid #fff;
+	    border-bottom: 12px solid #fff;
+    
+	}
+	.liugechanp li:nth-child(2n){
+	border-right: 12px solid #fff;
+    }
+	.liugechanp li h4{
+    	font-size: 32px;
+    	margin-top: 42px;
+
+    }
+    .liugechanp li span{
+    	font-size: 19px;
+    	margin-top: 3px;
+
+    }
+    .liugechanp li:first-child div{
+	width: 336px;
+	height: 236px;
+	background: url('../img/shanpin1zhon.png');
+	bottom:57px;
+    }
+    .liugechanp li:nth-child(4) div{
+    width: 318px;
+    height: 91px;
+    background: url('../img/chanpin4zhon.jpg') no-repeat center;
+    bottom: 136px;
+    }
+    .liugechanp li:nth-child(5) div{
+    width: 199px;
+    height: 348px;
+    background: url('../img/chanpin5zhon.jpg') no-repeat center;
+    bottom: 0px;
+    }
+    .liugechanp li:nth-child(6) div{
+    width: 296px;
+    height: 212px;
+    background: url('../img/chanpin6zhon.jpg') no-repeat center;
+    bottom: 87px;
+    }
+    .liugechanp li:nth-child(3) div{
+    width: 288px;
+    height: 322px;
+    background: url('../img/chanpin3zhon.jpg') no-repeat center;
+    bottom: 24px;
+    }
+    .liugechanp li:nth-child(3) img{
+    	display: block;
+    	width: 117px;
+    	height: 44px;
+    	margin: 0 auto;
+    	margin-top: 45px;
+    	background: url('../img/disangelogozhon.png') no-repeat center;
+    }
+    .bigbox ul{
+    	padding: 0 20px;
+    }
+
+
+	/* 产品结束 */
+	
+}
+
+/* 第三个 */
+@media screen and (max-width:768px ) {
+	/* 今天晚上 */
+	.xpsjduan{
+		display: block;
+	}
+
+	.dibutop{
+        display: none;
+	}
+
+	.zuihouyihang{
+		display: none;
+	}
+	/* 晚上结束 */
+
+
+
+	.guanggao{
+		padding: 0 16px;
+	}
+	.diyih{
+		display: none;
+	}
+
+	.dibu-top{
+		display: none;
+	}
+	.dibu-TOP{
+		display: block;
+	}
+	.dierge{
+		display: block;
+	}
+	.dierge ul{
+		padding: 0 16px;
+	}
+
+    
+	.href h1{
+		font-size: 32px;
+	}
+	.href h2{
+		font-size: 19px;
+	}
+
+	.href div{
+		width: 267px;
+	    height: 357px;
+	    background: url('../img/zuixiao.jpg')no-repeat center;
+
+	}
+	.iphonex h1{
+		font-size: 32px;
+	}
+	.iphonex h2{
+		font-size: 19px;
+	}
+	.iphonex div{
+		width:167px;
+        height:333px;  
+        background: url('../img/pingguochazuixiao.jpg') no-repeat center;
+	}
+	/* 六个产品 */
+	.liugechanp li{
+		width: 100%;
+	    height: 500px;
+	    border-bottom: 12px solid #fff;
+
+	}
+	.liugechanp li h4{
+    	font-size: 32px;
+    	margin-top: 37px;
+
+    }
+    .liugechanp li span{
+    	font-size: 19px;
+    	margin-top: 3px;
+
+    }
+    .liugechanp li:first-child div{
+	width: 314px;
+	height: 219px;
+	background: url('../img/chanpin1xiao.png');
+	bottom:72px;
+    }
+    .liugechanp li:nth-child(4) div{
+    width: 299px;
+    height: 86px;
+    background: url('../img/chanpin4xiao.jpg') no-repeat center;
+    bottom: 146px;
+    }
+    .liugechanp li:nth-child(5) div{
+    width: 206px;
+    height: 364px;
+    background: url('../img/chanpin5xiao.jpg') no-repeat center;
+    bottom: 0px;
+    }
+    .liugechanp li:nth-child(6) div{
+    width: 244px;
+    height: 193px;
+    background: url('../img/chanpin6xiao.jpg') no-repeat center;
+    bottom: 104px;
+    }
+    .liugechanp li:nth-child(3) div{
+    width: 291px;
+    height: 326px;
+    background: url('../img/chanpin3xiao.jpg') no-repeat center;
+    bottom:31px;
+    }
+    .liugechanp li:nth-child(3) img{
+    	display: block;
+    	width: 117px;
+    	height: 42px;
+    	margin: 0 auto;
+    	margin-top: 43px;
+    	background: url('../img/disangelogoxiao.png') no-repeat center;
+    }
+
+	/* 产品结束 */
+}
